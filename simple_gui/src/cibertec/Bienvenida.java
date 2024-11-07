@@ -68,7 +68,6 @@ public class Bienvenida extends JFrame {
         txtAreaSalida = new JTextArea();
         scpScroll.setViewportView(txtAreaSalida);
         
-        // Create the toggle button for dark mode
         tglbtnModoOscuro = new JToggleButton("Modo Oscuro");
         tglbtnModoOscuro.addActionListener(e -> toggleMode());
 
